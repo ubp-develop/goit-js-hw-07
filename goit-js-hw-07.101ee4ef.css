@@ -21,4 +21,18 @@ button {
   cursor: pointer;
   padding: 8px 12px;
 }
+
+.gallery {
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.gallery-item img {
+  border-radius: 8px;
+  height: auto;
+  display: block;
+}
 /*# sourceMappingURL=goit-js-hw-07.101ee4ef.css.map */
