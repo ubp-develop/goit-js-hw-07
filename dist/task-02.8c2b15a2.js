@@ -668,13 +668,21 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"cNG47":[function(require,module,exports,__globalThis) {
 const ingredients = [
-    'Potatoes',
-    'Mushrooms',
-    'Garlic',
-    'Tomatos',
-    'Herbs',
-    'Condiments'
+    "Potatoes",
+    "Mushrooms",
+    "Garlic",
+    "Tomatos",
+    "Herbs",
+    "Condiments"
 ];
+const ingredientsList = document.querySelector("#ingredients");
+const elements = ingredients.map((ingredient)=>{
+    const li = document.createElement("li");
+    li.textContent = ingredient;
+    li.classList.add("item");
+    return li;
+});
+ingredientsList.append(...elements);
 
 },{}]},["b3M6N","cNG47"], "cNG47", "parcelRequirec4de", {})
 

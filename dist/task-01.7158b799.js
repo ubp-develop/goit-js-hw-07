@@ -667,6 +667,14 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"3IGyj":[function(require,module,exports,__globalThis) {
+const categoriesList = document.querySelectorAll("#categories .item");
+console.log(`Number of categories: ${categoriesList.length}`);
+categoriesList.forEach((item)=>{
+    const hCount = item.querySelector("h2").textContent;
+    const ulCound = item.querySelectorAll("ul li").length;
+    console.log(`\nCategory: ${hCount}`);
+    console.log(`Elements: ${ulCound}`);
+});
 
 },{}]},["61V7l","3IGyj"], "3IGyj", "parcelRequirec4de", {})
 
