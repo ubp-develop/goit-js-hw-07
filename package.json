@@ -2,11 +2,13 @@
   "name": "goit-js-hw-07",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/goit-js-hw-07",
+  "homepage": "https://ubp-develop.github.io/goit-js-hw-07/",
+ 
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-07/"
-  },
+  "start": "parcel src/*.html",
+  "build": "parcel build src/*.html",
+  "deploy": "gh-pages -d dist"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goitacademy/goit-js-hw-07.git"
